@@ -30,7 +30,8 @@ SAY 'SQLITE RC=' RC
 DO I=1 TO SQLRECS                                              
   SAY $cod.i $nome.i $salario.i format($salario.i/100,17,2)    
 END                                                            
-                                                               
+
+The parameter POSIX(ON) is required. If you do not issue, the SQLITE utility will fail.
 
 
 Enjoy!
